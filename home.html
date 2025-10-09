@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAGILLA PRAVALIKA - Portfolio</title> <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1 class="logo">Portofolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#certificates">Certificates</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>PAGILLA PRAVALIKA</h2>
+                <p class="tagline">Student | IT Department | Vignan Institutions</p>
+                <p>Studying IT at Vignan Institutions of Technology and Science, I have a strong interest in programming and am committed to learning new skills to tackle real-world challenges.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="project-grid">
+
+                <div class="project-card">
+                    <h3>Real-Time project</h3>
+                    <h3>FOCUS GUARDIAN – STAYAWAKE,STAY SAFE</h3>
+                    <p>The Focus Guardian – Stay Awake, Stay Safe is an innovative Python-based system designed to enhance safety by detecting early signs of drowsiness in individuals. Utilizing computer vision, the system monitors eye-blink patterns and facial cues in real-time through a webcam.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Innovative Project</h3>
+                    <h3>DIY digital school bell with time table display</h3>
+                    <p>The DIY digital school bell with timetable display project aims to create a customizable and automated system for school bells. By using a microcontroller like Arduino or Raspberry Pi, along with a display module, users can set up a timetable for the school bell.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certificates" class="certificates-section">
+        <div class="container">
+            <h2>My Certificates</h2>
+            <div class="certificate-grid">
+                <div class="certificate-card">
+                    <h4> PythonEssentials1</h4> 
+                    <h4> Datascience Essentials with R</h4>
+                    <p>Issued by CISCO</p>
+                </div>
+                <div class="certificate-card">
+                    <h4> ForntEnd with HTML5 & CSS3</h4>
+                    <p>Issued by TASK.</p>
+                </div>
+                <div class="certificate-card">
+                    <h4> Pratical Html and Css </h4>
+                        <h4> Java Esstinals </h4>
+                        <h4> Java for Beginners </h4>
+                        <h4> Learn and Master C Programming For Absolute Beginners!</h4>
+                    <p>Issued by Infosys.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2>My Skills</h2>
+                    <p>HTML & CSS</p>
+                    <p>Java</p>
+                    <p>Python</p>
+                    <p>SQL</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <p>I'm always open to new opportunities, collaborations, or just a friendly chat. Feel free to reach out!</p>
+            <div class="contact-info">
+                <p><i class="fas fa-envelope"></i> Email: <a href="mailto:pravalikapagilla0@gmail.com">pravalikapagilla0@gmail.com</a></p>
+                <p><i class="fab fa-github"></i> GitHub: <a href="https://github.com/pravalika-reddy06" target="_blank">github.com/pravalika-reddy06</a></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 PAGILLA PRAVALIKA. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>
