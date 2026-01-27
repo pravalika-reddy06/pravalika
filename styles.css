@@ -1,17 +1,26 @@
- {
+ /* ==========================
+   GLOBAL STYLES
+========================== */
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 body {
   background-color: #f0f4f8;
   color: #1b1b1b;
   line-height: 1.6;
 }
+
 html {
   scroll-behavior: smooth;
 }
+
+/* ==========================
+   HEADER
+========================== */
 header {
   background-color: #ffffff;
   padding: 20px 0;
@@ -20,6 +29,7 @@ header {
   z-index: 100;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
+
 header .container {
   width: 90%;
   max-width: 1100px;
@@ -28,21 +38,28 @@ header .container {
   justify-content: space-between;
   align-items: center;
 }
+
 header .logo {
   font-size: 24px;
   font-weight: bold;
   color: #ff6b6b;
 }
+
 header nav ul {
   list-style: none;
   display: flex;
   gap: 20px;
 }
+
 header nav ul li a {
   color: #6b21a8;
   text-decoration: underline;
   font-weight: 500;
 }
+
+/* ==========================
+   HOME SECTION (TRUE CENTER)
+========================== */
 .home-section {
   min-height: 80px;
   display: flex;
@@ -50,6 +67,7 @@ header nav ul li a {
   justify-content: center;
   padding: 20px;
 }
+
 .home-card {
   background: #ffffff;
   width: 100%;
@@ -59,9 +77,12 @@ header nav ul li a {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   text-align: center;
 }
+
+/* Fade animation */
 .fade-in {
   animation: fadeUp 1s ease forwards;
 }
+
 @keyframes fadeUp {
   from {
     opacity: 0;
@@ -73,7 +94,7 @@ header nav ul li a {
   }
 }
 
-
+/* Resume Button */
 .resume-btn {
   display: inline-block;
   margin-top: 20px;
@@ -92,7 +113,9 @@ header nav ul li a {
   transform: translateY(-2px);
 }
 
-
+/* ==========================
+   SECTION WRAPPER (COMMON)
+========================== */
 .section {
   display: flex;
   justify-content: center;
@@ -114,6 +137,9 @@ header nav ul li a {
   margin-bottom: 20px;
 }
 
+/* ==========================
+   CERTIFICATES
+========================== */
 .certificate-item {
     text-align: center;
   border: 1px solid #e5e7eb;
@@ -154,6 +180,9 @@ header nav ul li a {
   background: transparent;
 }
 
+/* ==========================
+   PROJECTS
+========================== */
 .project-item {
     text-align: center;
   border: 1px solid #e5e7eb;
@@ -181,6 +210,9 @@ header nav ul li a {
   margin-right: 15px;
 }
 
+/* ==========================
+   SKILLS
+========================== */
 .skills-list {
     text-align: center;
   display: flex;
@@ -197,10 +229,14 @@ header nav ul li a {
   font-size: 14px;
 }
 
+/* Increase space before Contact section */
 #contact {
   margin-top: 20px;
 }
 
+/* ==========================
+   CONTACT
+========================== */
 .contact-card {
   text-align: center;
 }
@@ -220,6 +256,9 @@ header nav ul li a {
   text-decoration: underline;
 }
 
+/* ==========================
+   FOOTER
+========================== */
 footer {
   text-align: center;
   padding: 20px;
@@ -230,6 +269,9 @@ footer {
   margin-top: 40px;
 }
 
+/* ==========================
+   RESPONSIVE
+========================== */
 @media (max-width: 768px) {
   header .container {
     flex-direction: column;
@@ -241,7 +283,7 @@ footer {
     justify-content: center;
   }
 }
-
+/* SAFETY: remove unwanted pseudo elements */
 section::before,
 section::after {
   content: none !important;
@@ -264,7 +306,7 @@ section::after {
   font-size: 14px;
   font-weight: 500;
 }
-
+/* Force View button in Projects same as Certificates */
 .project-item .view-btn {
   display: inline-block;
   padding: 6px 14px;
