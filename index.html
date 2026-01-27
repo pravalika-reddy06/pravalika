@@ -2,117 +2,103 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PAGILLA PRAVALIKA - Portfolio</title> <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Pravalika | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <header>
-        <div class="container">
-            <h1 class="logo">Portfolio</h1>
-            <nav>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#certificates">Certificates</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
-    <section id="home" class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <h2>PAGILLA PRAVALIKA</h2>
-                <p class="tagline">Student | IT Department | Vignan Institutions</p>
-                <p> I'm a BTech student passionate about transforming data into insights,
-                building responsive web applications, and working on ML projects.</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="projects" class="projects-section">
-        <div class="container">
-            <h2>My Projects</h2>
-            <div class="project-grid">
-
-                <div class="project-card">
-                    <h3>Real-Time project</h3>
-                    <h3>FOCUS GUARDIAN – STAYAWAKE,STAY SAFE</h3>
-                    <p>The Focus Guardian – Stay Awake, Stay Safe is an innovative Python-based system designed to enhance safety by detecting early signs of drowsiness in individuals. Utilizing computer vision, the system monitors eye-blink patterns and facial cues in real-time through a webcam.</p>
-                </div>
-                <div class="project-card">
-                    <h3>Innovative Project</h3>
-                    <h3>DIY digital school bell with time table display</h3>
-                    <p>The DIY digital school bell with timetable display project aims to create a customizable and automated system for school bells. By using a microcontroller like Arduino or Raspberry Pi, along with a display module, users can set up a timetable for the school bell.</p>
-                </div>
-            </div>
-        </div>
+<header>
+  <div class="container">
+    <h1 class="logo">Portfolio</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#certificates">Certificates</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<section class="home-section" id="home">
+  <div class="home-card fade-in">
+    <h2>Pravalika Pagilla</h2>
+    <p>
+      Aspiring Software Developer and Data Analyst passionate about building
+      responsive websites and solving real-world problems using technology.
+    </p>
+    <a href="resume.pdf" download class="resume-btn">
+      📄 Download Resume
+    </a>
+  </div>
 </section>
-
-      <section class="section" id="certifications">
-         <h3 class="section-title">Certificates</h3>
-
-        <div class="grid-2">
-
-                <div class="card cert-card">
-                  <h4> dbms-nptel </h4>
-                    <p>Database Management System - NPTEL</p>
-        
-                        <a href="certificates/dbms-nptel.pdf" target="_blank" class="view-btn">View PDF</a>
-                        <a href="certificates/dbms-nptel.pdf" download class="download-btn">Download</a>
-
-                <div class="card cert-card">
-                    <h4> python-essentials </h4>
-                        <p>python essentials</p>
-        
-                             <a href="certificates/dbms-nptel.pdf" target="_blank" class="view-btn">View PDF</a>
-                              <a href="certificates/dbms-nptel.pdf" download class="download-btn">Download</a>
-
- </div>
+  <section class="section" id="certificates">
+  <div class="section-card">
+    <h2>📜 Certificates</h2>
+    <div class="certificate-item">
+      <h4>DBMS – NPTEL</h4>
+      <p>Database Management System</p>
+      <a href="certificates/dbms-nptel.pdf" target="_blank" class="view-btn">View</a>
+      <a href="certificates/dbms-nptel.pdf" download="DBMS-Certificate.pdf" class="download-btn">Download</a>
+    </div>
+    <div class="certificate-item">
+      <h4>Python – Essentials</h4>
+      <p>Python Programming Basics</p>
+      <a href="certificates/python-essentials.pdf" target="_blank" class="view-btn">View</a>
+      <a href= "certificates/python-essentials.pdf" download="Python-essentials.pdf" class="download-btn">Download</a>
+    </div>
+    <div class="certificate-item">
+      <h4>AI – Fundamentals</h4>
+      <p>Artificial Intelligence Fundamentals</p>
+      <a href="certificates/AI-Fundamentals.pdf" target="_blank" class="view-btn">View</a>
+      <a href="certificates/AI-Fundamentals.pdf" download="AI-Fundamentals.pdf" class="download-btn">Download</a>
+    </div>
+    </div>
+</section>
+<section class="section" id="projects">
+  <div class="section-card">
+    <h2>📂 Projects</h2>
+     <div class="project-item">
+  <h4>Portfolio Website</h4>
+  <p>Personal portfolio built using HTML and CSS.</p>
+  <a href="#" class="view-btn">View</a>
+  <a href="#" class="source-link">Source</a>
 </div>
+<div class="project-item">
+  <h4>To-Do List App</h4>
+  <p>Simple task manager with add and delete functionality.</p>
+  <a href="#" class="view-btn">View</a>
+  <a href="#" class="source-link">Source</a>
+</div>
+  </div>
 </section>
-
-    <section id="skills" class="skills-section">
-        <div class="container">
-            <h2>My Skills</h2>
-                    <p>HTML & CSS</p>
-                    <p>Java</p>
-                    <p>Python</p>
-                    <p>SQL</p>
-        </div>
-    </section>
-
-    <section id="contact" class="contact-section">
-        <div class="container">
-            <h2>Get in Touch</h2>
-            <p>I'm always open to new opportunities, collaborations, or just a friendly chat. Feel free to reach out!</p>
-            <div class="contact-info">
-                <p><i class="fas fa-envelope"></i> Email: <a href="mailto:pravalikapagilla0@gmail.com">pravalikapagilla0@gmail.com</a></p>
-                <p><i class="fab fa-github"></i> GitHub: <a href="https://github.com/pravalika-reddy06" target="_blank">github.com/pravalika-reddy06</a></p>
-            </div>
-        </div>
-    </section>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2025 PAGILLA PRAVALIKA. All rights reserved.</p>
-        </div>
-    </footer>
-
-    <script>
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
-            });
-        });
-    </script>
-
-</body>
-</html>
+<section class="section" id="skills">
+  <div class="section-card">
+    <h2>🛠️ Skills</h2>
+    <div class="skills-list">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>Java</span>
+      <span>Python</span>
+      <span>SQL</span>
+      <span>Data Analysis</span>
+    </div>
+  </div>
+</section>
+<section class="section" id="contact">
+  <div class="section-card contact-card">
+    <h2>📞 Contact</h2>
+    <p>
+      Email:
+      <a href="mailto:pravalikapagilla0@gmail.com">
+        pravalikapagilla0@gmail.com
+      </a>
+    </p>
+    <p>
+      LinkedIn:
+      <a href="https://linkedin.com/in/pravalika" target="_blank">
+        linkedin.com/in/pravalika
+      </a>
+    </p>
+  </div>
+</section>
